@@ -1,0 +1,24 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #E9ECEF;
+}
+ul {
+    list-style-type: disc; /* Noktaları göstermek için */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Hem noktaları hem de yazıları ortalamak için */
+}
+
+li {
+    text-align: center; /* Liste öğelerini ortalamak için */
+    width: fit-content;
+    
+}
+a{
+    text-decoration: none;
+}
+h3{
+    color: gold;
+}
